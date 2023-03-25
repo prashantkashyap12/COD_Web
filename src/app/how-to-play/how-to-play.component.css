@@ -1,0 +1,19 @@
+.listcheck li{
+ list-style: none;
+ list-style-image: url(../../assets/icons8-checkmark.gif);
+ height: auto;
+}
+
+.btn-common{   
+    background: rgba(131,58,180,1);
+    font-weight: 600;
+    color: azure;
+    transform: scale(1.0);
+    transition: 0.5s ease-in-out;
+}
+.btn-common:hover{
+    transform: scale(1.1);
+    background: rgb(31, 123, 37);
+    box-shadow: 3px 3px 8px gray;
+    color: aliceblue;
+}

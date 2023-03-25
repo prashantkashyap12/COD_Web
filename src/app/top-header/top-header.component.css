@@ -1,0 +1,20 @@
+.common-text{
+    font-size:14px;
+}
+.social-link{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.social-link li{
+    display: inline-block;
+}
+.social-link li a{
+    margin: 0px 5px;
+    color: rgb(71, 71, 70);
+}
+.social-link li a:hover{
+    color: rgb(190, 24, 24);
+    transition: 0.5s ease-out;
+}

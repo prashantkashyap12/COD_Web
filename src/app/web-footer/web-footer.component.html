@@ -1,0 +1,47 @@
+
+<!-- <router-outlet></router-outlet> -->
+<!-- <app-main-slider></app-main-slider> -->
+<div class="container-fluid">
+    <div class="row p-md-5 p-4 bgfooter">
+        <div class="col-md-6">
+           <h3 class="fw-bold text-white">Get Letest Update & news</h3>
+           <span class="text-danger">Welcome</span>
+       </div> 
+       <div class="col-md-6">
+           <form class="d-flex" #subs="ngForm" (ngSubmit)="datasub(subs.value)">
+               <input type="email" ngModel name="subemail" placeholder="Enter your e-mail" 
+               class="form-control rounded-0 w-75" />
+               <button class="btn btn-danger rounded-0">Subscribe</button>
+           </form>
+       </div> 
+   </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row" [ngClass]="'main-footer'">
+        <div class="col-md-6 col-sm-6 hidden-sm footer-s1 ">
+            <img [src]="mainfooter.logo" alt="">
+            <p class="text-white small ">COD App is the most popular Satta Matka Website to play online Matka that provides the fastest Satta Matka Result and Satta Matka Jodi & Panel Numbers. Our website is famous for quick COD App Matka Result or Matka Tips.</p>
+        </div>
+        <div class="col-md-6 col-sm-6 p-3 d-sm-block d-none ">
+            <p class="text-white text-justify"><b>Disclaimer :</b> COD bet is just a satta matka results website. You should access this website sattabet at your own risk. This website's content, photos and virtual properties are private and secured. They are completely owned by Matka King website under corporate laws and if someone uses it strict action will be taken against them.</p>
+        </div>    
+        <div class="col-md-12  d-block d-md-none footer-menu py-3">
+            <h5>Live Result</h5>
+            <ul class="d-flex justify-content-between flex-wrap align-self-start">
+                <li class="m-2"><a routerLinkActive="myactivestyle active" routerLink="/market1">market1</a></li>
+                <li class="m-2"><a routerLinkActive="myactivestyle active" routerLink="/market2">market2</a></li>
+                <li class="m-2"><a routerLinkActive="myactivestyle active" routerLink="/market3">market3</a></li>
+                <li class="m-2"><a routerLinkActive="myactivestyle active" routerLink="/market4">market4</a></li>
+                <li class="m-2"><a routerLinkActive="myactivestyle active" routerLink="/market5">market5</a></li>
+                <li class="m-2"><a routerLinkActive="myactivestyle active" routerLink="/market6">market6</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="footer-border py-1 px-3 text-center">
+            <span class=><b>©2023</b> Matka king. All Rights Reserved</span>
+        </div>
+    </div>
+</div>
+

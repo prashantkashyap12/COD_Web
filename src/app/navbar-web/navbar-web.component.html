@@ -1,0 +1,40 @@
+<app-top-header></app-top-header>
+<nav class="navbar navbar-expand-lg navbar-light px-2" style="border-bottom: 2px solid brown;">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="mainslider" ><img [src]="navHeader.logo" alt="" style="width: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/mainslider" aria-current="page" routerLink="mainslider">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/howtoplay">How to Play</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/old_Result">Old Result</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link btn btn-sm btn-danger text-light" target="_blank" routerLink="/userlogin">
+              <i class="fa fa-android" aria-hidden="true"></i> Download App
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <router-outlet></router-outlet>
+  
+
+
+  <app-web-footer></app-web-footer>
+
+
+
+ 
